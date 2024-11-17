@@ -1,0 +1,155 @@
+body {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.corps-du-site {
+    display: flex;
+}
+
+.sommaire {
+    width: 20%;
+}
+
+.coeur-de-article {
+    width: 55%;
+}
+
+.imagedoc {
+    width: 25%;
+}
+
+.infogras {
+    font-weight: 800;
+}
+
+.tete-site {
+    display: flex;
+}
+
+.logo {
+    width: 80%;
+}
+
+.modif {
+    width: 10%;
+}
+
+.compte {
+    width: 10%;
+}
+
+.lienannexes {
+    display: flex;
+}
+
+.mario-franchise {
+    width: 25%;
+}
+
+.mario {
+    width: 25%;
+}
+
+.luigi {
+    width: 25%;
+}
+
+.shigeru {
+    width: 25%;
+}
+
+.btn {
+    background-color: beige;
+    padding: 0.5rem;
+    display: block;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+/* Petits appareils (smartphones) */
+@media (max-width: 576px) {
+
+    /* Styles pour les écrans ≤ 576px */
+    .sommaire {
+        width: 0%;
+    }
+
+    .coeur-de-article {
+        width: 85%;
+    }
+
+    .imagedoc {
+        width: 15%;
+    }
+}
+
+/* Moyens appareils (tablettes portrait) */
+@media (min-width: 577px) and (max-width: 768px) {
+
+    /* Styles pour les écrans entre 577px et 768px */
+    .sommaire {
+        width: 0%;
+    }
+
+    .coeur-de-article {
+        width: 75%;
+    }
+
+    .imagedoc {
+        width: 25%;
+    }
+}
+
+/* Tablettes en mode paysage ou petits laptops */
+@media (min-width: 769px) and (max-width: 992px) {
+
+    /* Styles pour les écrans entre 769px et 992px */
+    .sommaire {
+        width: 15%;
+    }
+
+    .coeur-de-article {
+        width: 65%;
+    }
+
+    .imagedoc {
+        width: 20%;
+    }
+}
+
+/* Laptops et desktops */
+@media (min-width: 993px) and (max-width: 1200px) {
+
+    /* Styles pour les écrans entre 993px et 1200px */
+    .sommaire {
+        width: 20%;
+    }
+
+    .coeur-de-article {
+        width: 55%;
+    }
+
+    .imagedoc {
+        width: 25%;
+    }
+}
+
+/* Grands écrans */
+@media (min-width: 1201px) {
+
+    /* Styles pour les écrans ≥ 1201px */
+    .sommaire {
+        width: 20%;
+    }
+
+    .coeur-de-article {
+        width: 55%;
+    }
+
+    .imagedoc {
+        width: 25%;
+    }
+}
